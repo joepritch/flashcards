@@ -1,18 +1,22 @@
 body  {
   background-size: 200px;
+  font-family: 'Cinzel', serif;
 }
 .darktheme  {
   background-image: url(../img/tiledark.png);
   color: white;
+  text-shadow: 2px 2px 4px black;
 }
 .lighttheme {
   background-image: url(../img/tilelight.png);
   color: black;
+  text-shadow: 2px 2px 8px black;
 }
 h1  {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 100px;
+  font-weight: bold;
 }
 .well {
   border: solid 1px;
