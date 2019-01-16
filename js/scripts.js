@@ -2,13 +2,13 @@ $(document).ready(function() {
   $("#lightbutton").click(function()  {
     $("body").removeClass();
     $("body").addClass("lighttheme");
-    $("#lightcard").toggle();
-    $("#darkcard").toggle();
+    $(".lightcard").show();
+    $(".darkcard").hide();
   });
   $("#darkbutton").click(function()  {
     $("body").removeClass();
     $("body").addClass("darktheme");
-    $("#lightcard").toggle();
-    $("#darkcard").toggle();
+    $(".darkcard").show();
+    $(".lightcard").hide();
   });
 });
