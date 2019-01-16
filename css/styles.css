@@ -50,15 +50,6 @@ button  {
   background-color: black;
   border-color: white;
 }
-.lighttheme .cardtext {
-  background-color: rgba(255, 255, 255, 0.75);
-  border-color: rgba(255, 255, 255, 0);
-}
-.darktheme .cardtext  {
-  background-color: rgba(0, 0, 0, 0.75);
-  border-color: rgba(0, 0, 0, 0);
-
-}
 .cardtext {
   border: solid 10px;
   border-radius: 5px;
@@ -69,6 +60,18 @@ button  {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.lighttheme .cardtext {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-color: rgba(255, 255, 255, 0);
+}
+.darktheme .cardtext  {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-color: rgba(0, 0, 0, 0);
+
+}
+.cardtext:hover  {
+  color: grey;
 }
 #firstanswer  {
   display: none;
