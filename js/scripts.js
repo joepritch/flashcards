@@ -11,4 +11,8 @@ $(document).ready(function() {
     $(".darkcard").show();
     $(".lightcard").hide();
   });
+  $("#firstcard").click(function()  {
+    $("#firstquestion").slideToggle();
+    $("#firstanswer").slideToggle();
+  });
 });
