@@ -1,6 +1,7 @@
 body  {
   background-size: 200px;
   font-family: 'Cinzel', serif;
+  font-weight: bold;
 }
 .darktheme  {
   background-image: url(../img/tiledark.png);
@@ -16,7 +17,6 @@ h1  {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 100px;
-  font-weight: bold;
   font-size: 50px;
 }
 .well {
@@ -58,5 +58,26 @@ button  {
   transform: translate(-50%, -50%);
 }
 #firstanswer  {
+  display: none;
+}
+#secondanswer  {
+  display: none;
+}
+#thirdanswer  {
+  display: none;
+}
+#fourthanswer  {
+  display: none;
+}
+#fifthanswer  {
+  display: none;
+}
+#sixthanswer  {
+  display: none;
+}
+#seventhanswer  {
+  display: none;
+}
+#eighthanswer  {
   display: none;
 }
