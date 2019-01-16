@@ -1,0 +1,47 @@
+body  {
+  background-size: 200px;
+}
+.darktheme  {
+  background-image: url(../img/tiledark.png);
+  color: white;
+}
+.lighttheme {
+  background-image: url(../img/tilelight.png);
+  color: black;
+}
+h1  {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.well {
+  border: solid 1px;
+  border-radius: 14px;
+  padding: 0px;
+}
+.darktheme .well {
+  background-color: rgba(0, 0, 0, .75);
+  border-color: white;
+}
+.lighttheme .well {
+  background-color: rgba(255, 255, 255, .75);
+  border-color: black;
+}
+.lightcard  {
+  display: none;
+}
+button  {
+  margin: 10px;
+  border-radius: 4px;
+  border: solid 1px;
+}
+.darktheme button  {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+.lighttheme button {
+  color: white;
+  background-color: black;
+  border-color: white;
+}
