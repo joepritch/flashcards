@@ -1,8 +1,14 @@
 $(document).ready(function() {
-  $("#themechange").click(function()  {
+  $("#lightbutton").click(function()  {
     $("body").removeClass();
     $("body").addClass("lighttheme");
-    $("#lightcard").show();
-    $("#darkcard").hide();
+    $("#lightcard").toggle();
+    $("#darkcard").toggle();
+  });
+  $("#darkbutton").click(function()  {
+    $("body").removeClass();
+    $("body").addClass("darktheme");
+    $("#lightcard").toggle();
+    $("#darkcard").toggle();
   });
 });
